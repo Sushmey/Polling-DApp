@@ -7,7 +7,7 @@ var abi = JSON.parse('[{"constant":true,"inputs":[{"name":"candidate","type":"by
 
 var contract = new web3.eth.Contract(abi);
 
-contract.options.address = "0x7e8c83dabdf0fcece7b1fe82d7054a15cf052a65"; //Contract address created when block is created
+contract.options.address = "0x6d662122b98fed89da819ce7a52b76a5544daecb"; //Contract address created when block is created
 
 candidates = {"Brian Quinn": "candidate-1", 'Anthony Padilla': "candidate-2", "Shahzeb Khan": "candidate-3", "Dee Reynolds": "candidate-4"};
 
