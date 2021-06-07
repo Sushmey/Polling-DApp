@@ -13,7 +13,7 @@ node_modules/.bin/solcjs --bin --abi voting.sol
 This will create two files (which are already in this repo) called `voting_sol_Voting.bin` and `voting_sol_Voting.abi`
 # How to run
 ### This is only for MacOS
-Install ganache-cli using `npm install ganache-cli`
+Install ganache-cli using `npm install ganache-cli` and run ganache-cli.
 You'll see 10 accounts with 100 fake Ether.
 
 Open another terminal window and open the node terminal
